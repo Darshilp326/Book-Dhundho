@@ -122,7 +122,15 @@ function App() {
           </div>
         }
       </div>
-      
+      {results.length>0 &&
+        <div className='d-flex flex-column justify-content-center align-items-center' >
+          <div className='mb-3'>Page:{page}</div>
+          <div className='d-flex justify-content-center mb-5'>
+            {page>1 && <Button style={{marginRight:'4px'}} onClick={handlePrev}>Previous</Button>}
+            <Button style={{marginRight:'7px'}} onClick={handleNext}>Next</Button>
+          </div>
+        </div>
+      }
       <ToastContainer/>
     </div>
   );

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/book-dhundho/static/css/main.a2f03372.css",
+    "main.js": "/book-dhundho/static/js/main.16b192fd.js",
+    "index.html": "/book-dhundho/index.html",
+    "main.a2f03372.css.map": "/book-dhundho/static/css/main.a2f03372.css.map",
+    "main.16b192fd.js.map": "/book-dhundho/static/js/main.16b192fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f03372.css",
+    "static/js/main.16b192fd.js"
+  ]
+}

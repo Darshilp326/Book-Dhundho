@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import {toast, ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
-import BookCard from './BookCard';
+import BookCard from './components/BookCard';
 
 
 function App() {
@@ -50,6 +50,7 @@ function App() {
   const handleSubmit=async()=>{
      console.log({keyword,maxm})
      setLoading(true)
+     setResults([])
      if(maxm>40){
        toast.error('Maximum limit is 40')
      }
